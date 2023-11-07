@@ -26,5 +26,5 @@ while True:
         print('the number of random_question is weird and I am going to cry. For now, good bye')
         exit()
     awnser = random_working_innerlist[randint_question]
-    inp = input(f'\nGive the {random_question_name} of {random_given}')
+    inp = input(f'\nGive the {random_question_name} of {random_given}' )
     print(f'The awnser is {awnser}')
